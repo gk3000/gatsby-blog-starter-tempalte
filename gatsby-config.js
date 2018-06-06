@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
-    author: 'Kyle Mathews',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    title: 'Gatsby Blog Template',
+    author: 'GKs',
+    description: 'Blog template with Gatsby.',
+    siteUrl: 'https://github.com/gk3000/gatsby-blog-starter-template',
   },
-  pathPrefix: '/gatsby-starter-blog',
+  pathPrefix: '/gatsby-blog-starter-template',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -47,11 +47,11 @@ module.exports = {
     `gatsby-plugin-feed`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: 'gatsby-plugin-typography',
-      options: {
-        pathToConfigModule: 'src/utils/typography',
-      },
-    },
+    // {
+      // resolve: 'gatsby-plugin-typography',
+      // options: {
+      //   pathToConfigModule: 'src/utils/typography',
+      // },
+    // },
   ],
 }

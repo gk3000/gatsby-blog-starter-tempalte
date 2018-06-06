@@ -1,3 +1,43 @@
+@font-face {
+	font-family: 'Bison';
+	src: 
+	local('Bison-Bold'),
+	local('Bison Bold'),
+	url('../fonts/Bison-Bold.ttf')
+	format('truetype');
+
+}
+
+@font-face {
+	font-family: 'Letter Gothic';
+	src: 
+	local('Letter-Gothic-Std'),
+	local('Letter Gothic Std'),
+	url('../fonts/LetterGothicStd.otf')
+	format('opentype');
+
+}
+
+body {
+	font-family: Letter Gothic,sans-serif;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Bison,sans-serif;
+}
+
+.main {
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	padding: 0;
+}
+
 a {
 	color: grey;
+}
+
+img.blogpics {
+	width: 100%;
 }
